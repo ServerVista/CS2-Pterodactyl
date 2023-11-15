@@ -16,7 +16,7 @@ WORKDIR     /home/container
 # RUN         apt install -y wine wine64 libwine && apt clean
 
 # CP
-COPY        /home/sw3host/cs2/game /home/container/game
+COPY        /home/sw3host/cs2/gam[e] /home/container/game
 
 # EP
 COPY        ./docker/entrypoint.sh /entrypoint.sh
